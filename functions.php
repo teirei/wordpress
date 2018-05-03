@@ -60,6 +60,7 @@ add_theme_support( 'automatic-feed-links' );
 
 /*カスタムメニューの登録*/
 register_nav_menus( array(
+	'top-menu' => 'トップページメニュー',
 	'main-menu' => 'グローバルメニュー',
 	'sub-menu' => 'ヘッダーメニュー',
 	'footer-menu' => 'フッターメニュー',
