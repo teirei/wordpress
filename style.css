@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
 /*
-Theme Name:WSC 10days
+Theme Name:WSC 10days_remake
 Theme URI:http://wsc.studiobrain.net/
 Version:1.0.2
 Author:WSCプロジェクト
 Author URI:http://wsc.studiobrain.net/
+Remaker: Tei Rei
 License:GNU General Public License v2.0
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -78,7 +79,7 @@ object,embed{width:100%;display:block;margin:auto;}
 #mainMenu a{background-color:#eee;color:#333;text-decoration:none;display:block;line-height:40px;padding:0;width:186px;text-align:center;}
 #mainMenu a:hover{background:#eee url(img/menu_hover.png) repeat-x left bottom;}
 #mainMenu li:hover > a,
-#mainMenu ul li:hover > ul{display:block;/display:none;}
+#mainMenu ul li:hover > ul{display:block;}
 #mainMenu .current-menu-item a,
 #mainMenu .current-menu-ancestor a{background: #333 url(img/menu_active.png) repeat-x left bottom;color:#fff;}
 #mainMenu ul ul{box-shadow:0px 3px 3px rgba(0,0,0,0.2);display:none;position:absolute;top:42px;left:0;float:left;width:188px;z-index:99999;height:auto;background-image:none;}
@@ -90,7 +91,6 @@ object,embed{width:100%;display:block;margin:auto;}
 #mainMenu ul ul :hover > a,
 #mainMenu .current-menu-item ul a:hover,
 #mainMenu .current-menu-ancestor ul a:hover{background-color:#ddd;background-image:none;}
-
 
 /*トップイメージ*/
 #topImage{clear:both;background-color:#f6f6f6;margin-bottom:20px;}

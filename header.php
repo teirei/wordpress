@@ -23,16 +23,11 @@
 <?php wp_nav_menu( array( 'container_id' => 'sub-menu', 'theme_location' => 'sub-menu', 'depth' => 1, 'fallback_cb' => 0 ) ); ?>
 </div>
 
-<div id="mainMenu">
-<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-<br style="clear:both;">
-</div>
-
 <?php
 if ( is_front_page() ) { ?>
 	<div id="topImage">
 		<div id="topImageWrap">
-<?php if ( function_exists( 'easingslider' ) ) { easingslider( 253 ); } ?>
+<?php if ( function_exists( 'easingslider' ) ) { easingslider( 83 ); } ?>
 		</div>
 	</div>
 <?php } else { ?>
@@ -42,5 +37,14 @@ if ( is_front_page() ) { ?>
 		</div>
 	</div>
 <?php } ?>
+
+<div id="mainMenu">
+<?php if ( is_front_page() ) {
+		wp_nav_menu( array( 'theme_location' => 'top-menu' ) );
+	  }else{
+		wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+	  }	?>
+<br style="clear:both;">
+</div>
 
 <div id="wrap">

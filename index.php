@@ -31,23 +31,12 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div <?php post_class(); ?>>
-			<h2 class="entry-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-					<?php if ( has_post_thumbnail() ) { ?>
-						<a href="<?php the_permalink(); ?>" class="thumbnail-align"><?php the_post_thumbnail( 'thumbnail' ); ?></a>
-						<?php the_excerpt(); ?>
-					<?php } else { ?>
-						<?php the_excerpt(); ?>
-					<?php } ?>
-			<?php the_tags( '<span class="tags">' , '', '</span>'); ?>
-			<div class="postmetadata">
-				<span class="updated">作成日: <?php the_time('Y年n月j日') ?></span> | <?php the_category(', ') ?>
-			</div>
-			<hr>
+			<a href="<?php the_permalink(); ?>" class="thumbnail-align"><?php the_post_thumbnail( 'grid' ); ?></a>
 		</div>
 <?php endwhile; ?>
-
+		
 	<div class="navigation">
-		<?php if(function_exists('wp_pagenavi')): ?>
+		<?php if( function_exists('wp_pagenavi') ): ?>
 		<?php wp_pagenavi(); ?>
 		<?php else : ?>
 		<div class="alignleft"><?php previous_posts_link('前のページ') ?></div>
