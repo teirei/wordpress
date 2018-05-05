@@ -49,10 +49,12 @@ register_sidebar(array(
     'after_title' => '</p>',
 ));
 
-
 /*アイキャッチ画像を有効化*/
 add_theme_support( 'post-thumbnails' );
-
+/*アイキャッチ画像のサイズを設定*/
+//set_post_thumbnail_size(150,150,true);
+/*アイキャッチ画像サイズ "grid" を追加*/
+add_image_size('grid', 300, 300, true);
 
 /*RSSフィードを有効化*/
 add_theme_support( 'automatic-feed-links' );

@@ -31,7 +31,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div <?php post_class(); ?>>
-			<a href="<?php the_permalink(); ?>" class="thumbnail-align"><?php the_post_thumbnail( 'thumbnail' ); ?></a>
+			<a href="<?php the_permalink(); ?>" class="thumbnail-align"><?php the_post_thumbnail( 'grid' ); ?></a>
 		</div>
 <?php endwhile; ?>
 		
