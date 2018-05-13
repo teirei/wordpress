@@ -39,7 +39,7 @@ h4{font-size:14px;line-height:16px;}
 h5{font-size:12px;line-height:14px;}
 h6{font-size:11px;line-height:13px;}
 img{border:none;max-width:100%;height:auto;}
-a{text-decoration:underline;color:#477bb0;}
+a{text-decoration: none;color:#477bb0;}
 a:hover{text-decoration:none;}
 a:hover img{opacity:0.8;}
 hr{background-color:#ddd;border:0;height:1px;clear:both;margin:30px auto;}
@@ -56,7 +56,7 @@ object,embed{width:100%;display:block;margin:auto;}
 #header,#wrap,#footerWrap,#footerBottom,#breadcrumb{width:940px;margin:auto;}
 #header{overflow:hidden;min-height:100px;}
 #wrap{text-align:left;clear:both;}
-#content{float:left;text-align:left;overflow:hidden;padding:0;width:660px;}
+#content{width: 920px;float:left;text-align:left;overflow:hidden;padding:0;/* width:660px; */}
 .page #content{width:940px;padding:0;margin:0 0 20px;}
 #side{width:234px;overflow:hidden;padding:0;margin:0px;float:right;}
 #footer{clear:both;}
@@ -73,7 +73,7 @@ object,embed{width:100%;display:block;margin:auto;}
 #header .menu li a:hover{background-color:#999;}
 
 /*グローバルナビ*/
-#mainMenu{background-color:#eee;height:40px;}
+#mainMenu{background-color:#eee;height:40px;margin-bottom: 10px;}
 #mainMenu ul{margin:auto;width:940px;}
 #mainMenu li{float:left;position:relative;padding:0 1px 2px;background-color:#fff;width:186px;}
 #mainMenu a{background-color:#eee;color:#333;text-decoration:none;display:block;line-height:40px;padding:0;width:186px;text-align:center;}
@@ -93,7 +93,7 @@ object,embed{width:100%;display:block;margin:auto;}
 #mainMenu .current-menu-ancestor ul a:hover{background-color:#ddd;background-image:none;}
 
 /*トップイメージ*/
-#topImage{clear:both;background-color:#f6f6f6;margin-bottom:20px;}
+#topImage{clear:both;background-color:#f6f6f6;margin-bottom: 10px;}
 #topImageWrap{margin:auto;width:938px;height:300px;}
 
 /*パンくずリスト*/
@@ -103,7 +103,7 @@ object,embed{width:100%;display:block;margin:auto;}
 
 /*コンテンツ部分*/
 #content h1{padding:8px 10px;border-left:8px solid #333;border-bottom:1px solid #333;font-size:20px;line-height:22px;}
-#content h2{background-color:#666;font-size:14px;line-height:30px;color:#fff;padding:0 0 0 15px;border-bottom:3px solid #ccc;}
+#content h2{background-color: #33333355;font-size:14px;line-height:30px;color:#fff;/* padding:0 0 0 15px; *//* border-bottom:3px solid #ccc; */text-align:  center;}
 #content h2 a{color:#fff;}
 #content h3{clear:both;border-left:3px solid #333;padding:0 0 0 7px;font-size:14px;line-height:25px;}
 .hentry ul{margin-left:25px;padding-left:0px;list-style-type:disc;}
