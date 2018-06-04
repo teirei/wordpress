@@ -103,7 +103,7 @@ object,embed{width:100%;display:block;margin:auto;}
 
 /*コンテンツ部分*/
 #content h1{padding:8px 10px;border-left:8px solid #333;border-bottom:1px solid #333;font-size:20px;line-height:22px;}
-#content h2{background-color: #33333355;font-size:14px;line-height:30px;color:#fff;/* padding:0 0 0 15px; *//* border-bottom:3px solid #ccc; */text-align:  center;}
+#content h2{background-color: #666;font-size:14px;line-height:30px;color:#fff;padding:0 0 0 15px;border-bottom:3px solid #ccc;}
 #content h2 a{color:#fff;}
 #content h3{clear:both;border-left:3px solid #333;padding:0 0 0 7px;font-size:14px;line-height:25px;}
 .hentry ul{margin-left:25px;padding-left:0px;list-style-type:disc;}
