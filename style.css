@@ -16,7 +16,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 ---------------------------------------------------------------------------- */
 
 /*リセット*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0;outline:0;font-size:100%;background:transparent;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0;outline:0;font-size:100%;background:#111111;}
 body{line-height:1;}
 ol, ul{list-style:none;margin:0;padding:0;}
 blockquote, q{quotes:none;}
@@ -39,7 +39,7 @@ h4{font-size:14px;line-height:16px;}
 h5{font-size:12px;line-height:14px;}
 h6{font-size:11px;line-height:13px;}
 img{border:none;max-width:100%;height:auto;}
-a{text-decoration: none;color:#ffffff;}
+a{text-decoration: none;color:#ffffff;background:transparent;}
 a:hover{text-decoration:none;}
 a:hover img{opacity:0.8;}
 hr{background-color:#ddd;border:0;height:1px;clear:both;margin:30px auto;}
@@ -73,9 +73,19 @@ object,embed{width:100%;display:block;margin:auto;}
 #header .menu li a:hover{background-color:#999;}
 
 /*グローバルナビ*/
-#mainMenu{background-color:#eee;height:40px;margin-bottom: 10px;}
+#mainMenu{
+/* 	background-color:#eee; */
+/* 	height:40px; */
+	margin-bottom: 10px;
+}
 #mainMenu ul{margin:auto;width:940px;}
-#mainMenu li{float:left;position:relative;padding:0 1px 2px;background-color:#fff;width:186px;}
+#mainMenu li{
+	float:left;
+	position:relative;
+	padding:0 1px 2px;
+/* 	background-color:#fff; */
+	width:186px;
+}
 #mainMenu a{background-color:#eee;color:#333;text-decoration:none;display:block;line-height:40px;padding:0;width:186px;text-align:center;}
 #mainMenu a:hover{background:#eee url(img/menu_hover.png) repeat-x left bottom;}
 #mainMenu li:hover > a,
@@ -93,7 +103,11 @@ object,embed{width:100%;display:block;margin:auto;}
 #mainMenu .current-menu-ancestor ul a:hover{background-color:#ddd;background-image:none;}
 
 /*トップイメージ*/
-#topImage{clear:both;background-color:#f6f6f6;margin-bottom: 10px;}
+#topImage{
+	clear:both;
+/* 	background-color:#f6f6f6; */
+	margin-bottom: 10px;
+}
 #topImageWrap{margin:auto;width:938px;height:300px;}
 
 /*パンくずリスト*/

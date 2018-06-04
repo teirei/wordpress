@@ -27,15 +27,15 @@
 if ( is_front_page() ) { ?>
 	<div id="topImage">
 		<div id="topImageWrap">
-<?php if ( function_exists( 'easingslider' ) ) { easingslider( 83 ); } ?>
+<?php if ( function_exists( 'easingslider' ) ) { easingslider( 281 ); } ?>
 		</div>
 	</div>
 <?php } else { ?>
-	<div id="secondImage">
+<!-- 	<div id="secondImage">
 		<div id="breadcrumb">
 		<?php if(function_exists('bcn_display')) { bcn_display(); } ?>
 		</div>
-	</div>
+	</div> -->
 <?php } ?>
 
 <div id="mainMenu">
