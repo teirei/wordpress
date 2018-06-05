@@ -16,7 +16,16 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 ---------------------------------------------------------------------------- */
 
 /*リセット*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0;outline:0;font-size:100%;background:#111111;}
+#container{
+	background:#111111;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+}
 body{line-height:1;}
 ol, ul{list-style:none;margin:0;padding:0;}
 blockquote, q{quotes:none;}
@@ -30,16 +39,25 @@ img{vertical-align:top;}
 
 /*基本タグ*/
 body{margin:0px;padding:0;-webkit-text-size-adjust:none;font:13px/23px "Meiryo","MS PGothic","Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;color:#333;}
-h1,h2,h3,h4,h5,h6,p{margin:0 0 20px;}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0 0 8px;
+}
 ul,ol{padding:0;margin:0 0 20px 20px;}
-h1{font-size:20px;line-height:22px;}
+h1{
+	font-size:20px;
+	line-height:22px;
+	color:#bbbbbb;
+}
 h2{font-size:18px;line-height:20px;}
 h3{font-size:16px;line-height:18px;}
 h4{font-size:14px;line-height:16px;}
 h5{font-size:12px;line-height:14px;}
 h6{font-size:11px;line-height:13px;}
 img{border:none;max-width:100%;height:auto;}
-a{text-decoration: none;color:#ffffff;background:transparent;}
+a{
+	text-decoration: none;
+	background:transparent;
+}
 a:hover{text-decoration:none;}
 a:hover img{opacity:0.8;}
 hr{background-color:#ddd;border:0;height:1px;clear:both;margin:30px auto;}
@@ -54,7 +72,12 @@ object,embed{width:100%;display:block;margin:auto;}
 
 /*スペース*/
 #header,#wrap,#footerWrap,#footerBottom,#breadcrumb{width:940px;margin:auto;}
-#header{overflow:hidden;min-height:100px;}
+#header{
+	overflow:hidden;
+/* 	min-height:100px; */
+	height:58px;
+	margin-bottom:8px;
+}
 #wrap{text-align:left;clear:both;}
 #content{width: 920px;float:left;text-align:left;overflow:hidden;padding:0;/* width:660px; */}
 .page #content{width:940px;padding:0;margin:0 0 20px;}
@@ -63,8 +86,23 @@ object,embed{width:100%;display:block;margin:auto;}
 
 /*ヘッダー*/
 #siteTitle{margin:0;padding:0;}
-#siteTitle a{float:left;font-size:20px;margin:25px 1px 20px;float:left;}
-#siteDescription{font-size:12px;font-weight:normal;font-style:normal;line-height:43px;margin:14px 1px 0;padding:0;float:right;}
+#siteTitle a{
+	float:left;
+	font-size:20px;
+	margin:8px 0 0 10px;
+	float:left;}
+#siteDescription{
+	font-size:20px;
+	font-weight:normal;
+	font-style:normal;
+	line-height:58px;
+	margin:14px 10px 0;
+	padding:0;
+	float:right;
+}
+#siteDescription a{
+	color:#bbbbbb;
+}
 
 /*ヘッダーナビ*/
 #header .menu{margin:0;padding:0;float:right;clear:right;}
@@ -76,7 +114,7 @@ object,embed{width:100%;display:block;margin:auto;}
 #mainMenu{
 /* 	background-color:#eee; */
 /* 	height:40px; */
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 #mainMenu ul{margin:auto;width:940px;}
 #mainMenu li{
@@ -86,7 +124,17 @@ object,embed{width:100%;display:block;margin:auto;}
 /* 	background-color:#fff; */
 	width:186px;
 }
-#mainMenu a{background-color:#eee;color:#333;text-decoration:none;display:block;line-height:40px;padding:0;width:186px;text-align:center;}
+#mainMenu a{
+	background-color:#eee;
+	color:#333;
+	text-decoration:none;
+	display:block;
+	line-height:40px;
+	padding:0;
+	width:186px;
+	text-align:center;
+	font-size:20px
+}
 #mainMenu a:hover{background:#eee url(img/menu_hover.png) repeat-x left bottom;}
 #mainMenu li:hover > a,
 #mainMenu ul li:hover > ul{display:block;}
@@ -106,9 +154,13 @@ object,embed{width:100%;display:block;margin:auto;}
 #topImage{
 	clear:both;
 /* 	background-color:#f6f6f6; */
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
-#topImageWrap{margin:auto;width:938px;height:300px;}
+#topImageWrap{
+	margin:auto;
+	width:938px;
+	height:625px;
+}
 
 /*パンくずリスト*/
 #secondImage{height:70px;clear:both;background-color:#333;margin-bottom:20px;}
@@ -251,7 +303,13 @@ img.alignright{float:right;margin:0 0 20px 20px;}
 
 /*フッター*/
 #footerBottom{padding:10px 0 0;overflow:hidden;}
-#copyright{float:right;padding-bottom:50px;font-size:11px;line-height:20px;}
+#copyright{
+	float:right;
+	padding-bottom:50px;
+	font-size:15px;
+	line-height:20px;
+	color:#666;
+}
 #copyright a{color:#333;text-decoration:none;}
 
 /*フッターウィジェット*/
