@@ -7,7 +7,7 @@
 			<h1><?php single_cat_title(); ?></h1>
 			<?php echo category_description(); ?>
 			<?php } elseif( is_tag() ) { ?>
-			<h1>タグ &#8216;<?php single_tag_title(); ?>&#8217;</h1>
+			<h1><?php single_tag_title(); ?></h1>
 			<?php } elseif (is_day()) { ?>
 			<h1><?php the_time('Y年n月j日'); ?></h1>
 			<?php } elseif (is_month()) { ?>
