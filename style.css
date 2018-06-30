@@ -143,6 +143,23 @@ p {
   color: #a8a8a8;
 }
 
+#request-introduction {
+  margin: 20px 10px;
+}
+
+#request-introduction ul{
+  margin: 0 20px;
+}
+
+#request-introduction p{
+  font-size: 120%;
+  color: #a8a8a8;
+}
+
+.wpcf7 p {
+  color: #080808;
+}
+
 img {
   border: none;
   max-width: 100%;
@@ -1273,8 +1290,8 @@ img.alignright {
 }
 
 .wpcf7-mail-sent-ok {
-  background-color: #4d8e36;
-  color: #fff;
+  background-color: #66ddff;
+  color: #080808;
 }
 
 .wpcf7-mail-sent-ng {
