@@ -143,21 +143,31 @@ p {
   color: #a8a8a8;
 }
 
-#request-introduction {
+.forum-introduction {
   margin: 20px 10px;
 }
 
-#request-introduction ul{
+.forum-introduction ul {
   margin: 0 20px;
 }
 
-#request-introduction p{
+.forum-introduction p {
   font-size: 120%;
   color: #a8a8a8;
+  margin-left: 15px;
+}
+
+#support-introduction a {
+  color: #a8a8a8;
+}
+
+#support-introduction a:hover {
+  color: #00ddff;
 }
 
 .wpcf7 p {
   color: #080808;
+/*   font-size: 120%; */
 }
 
 img {
@@ -469,12 +479,12 @@ object, embed {
 }
 
 #content h2 {
-  background-color: #666;
-  font-size: 14px;
+  background-color: #686868;
+  font-size: 16px;
   line-height: 30px;
   color: #fff;
   padding: 0 0 0 15px;
-  border-bottom: 3px solid #ccc;
+/*   border-bottom: 3px solid #ccc; */
 }
 
 #content h2 a {
