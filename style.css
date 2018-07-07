@@ -144,7 +144,7 @@ p {
 }
 
 .forum-introduction {
-  margin: 20px 10px;
+  margin: 10px 20px;
 }
 
 .forum-introduction ul {
@@ -155,10 +155,12 @@ p {
   font-size: 120%;
   color: #a8a8a8;
   margin-left: 15px;
+  line-height: 24px;
 }
 
 #support-introduction a {
-  color: #a8a8a8;
+  color: #ccc;
+  text-decoration: underline;
 }
 
 #support-introduction a:hover {
@@ -241,7 +243,7 @@ object, embed {
 
 /*スペース*/
 #header, #wrap, #footerWrap, #footerBottom, #breadcrumb {
-  width: 940px;
+  width: 1220px;
   margin: auto;
 }
 
@@ -258,21 +260,20 @@ object, embed {
 }
 
 #content {
-  width: 938px;
+  width: 1220px;
   float: left;
   text-align: left;
   overflow: hidden;
   padding: 0;
-  /* width:660px; */
 }
 
 #mw-content-text {
   font-size: 120%;
 }
 .page #content {
-  width: 940px;
+  width: 1220px;
   padding: 0;
-  margin: 0 0 20px;
+  margin: 0 0 12px;
 }
 
 #side {
@@ -312,6 +313,7 @@ object, embed {
 
 #siteDescription a {
   color: #ccc;
+  font-size: 120%;
 }
 
 /*ヘッダーナビ*/
@@ -351,15 +353,15 @@ object, embed {
 
 #mainMenu ul {
   margin: auto;
-  width: 940px;
+  width: 1220px;
 }
 
 #mainMenu li {
   float: left;
   position: relative;
-  padding: 0 1px 2px;
+  padding: 0 2px;
   /* 	background-color:#fff; */
-  width: 186px;
+  width: 240px;
 }
 
 #mainMenu a {
@@ -367,11 +369,11 @@ object, embed {
   color: #00ddff;
   text-decoration: none;
   display: block;
-  line-height: 40px;
+  line-height: 50px;
   padding: 0;
-  width: 186px;
+  width: 240px;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #mainMenu a:hover {
@@ -444,8 +446,8 @@ object, embed {
 
 #topImageWrap {
   margin: auto;
-  width: 938px;
-  height: 625px;
+  width: 1218px;
+  height: 812px;
 }
 
 /*パンくずリスト*/
@@ -475,15 +477,16 @@ object, embed {
   border-left: 8px solid #383838;
   border-bottom: 2px solid #383838;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 24px;
 }
 
 #content h2 {
   background-color: #686868;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
   color: #fff;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 9px;
 /*   border-bottom: 3px solid #ccc; */
 }
 
@@ -732,7 +735,7 @@ object, embed {
 .thumbnail-align img {
   float: left;
 /*   padding: 7px; */
-  margin: 0 6px 8px;
+  margin: 0 3px 8px;
   background-color: #eee;
 /*   border-radius: 3px; */
 }
@@ -1135,7 +1138,7 @@ img.alignright {
 
 #copyright {
   float: right;
-  padding-bottom: 50px;
+  padding-bottom: 36px;
   font-size: 120%;
   line-height: 20px;
   color: #a8a8a8;
