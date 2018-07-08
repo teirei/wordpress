@@ -8,13 +8,6 @@
 			<?php the_tags( '<span class="tags">' , '', '</span>'); ?>
 			<div class="postmetadata"><span class="updated">作成日: <?php the_time('Y年n月j日') ?></span> | <?php the_category(', ') ?></div>
 		</div>
-
-		<?php // comments_template(); ?>
-
-		<div class="navigation">
-			<div class="alignleft"><?php previous_post_link('%link', '前のページ' ,'TRUE') ?></div>
-			<div class="alignright"><?php next_post_link('%link', '次のページ' ,'TRUE') ?></div>
-		</div>
 <?php endwhile; endif; ?>
 	</div>
 

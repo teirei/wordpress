@@ -267,8 +267,10 @@ object, embed {
   padding: 0;
 }
 
-#mw-content-text {
+#article-content p {
   font-size: 120%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .page #content {
   width: 1220px;
@@ -1138,6 +1140,7 @@ img.alignright {
 
 #copyright {
   float: right;
+  margin-top: 12px;
   padding-bottom: 36px;
   font-size: 120%;
   line-height: 20px;
