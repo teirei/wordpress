@@ -26,6 +26,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
   --bg-light: #a8a8a8;
 
   --text-dark: #080808;
+  --text-mid: #686868;
   --text-light: #a8a8a8;
   --text-overlight: #ccc;
   --text-superlight: #fff;
@@ -272,6 +273,13 @@ object, embed {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.exif-in-article {
+  color: #686868;
+  font-size: 120%;
+  text-align: center;
+}
+
 .page #content {
   width: 1220px;
   padding: 0;
