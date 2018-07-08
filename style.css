@@ -168,6 +168,30 @@ p {
   color: #00ddff;
 }
 
+#support-introduction-blank-left, #support-introduction-blank-center, #support-introduction-blank-right {
+	width: 50px;
+	height: 270px;
+}
+
+#support-introduction-blank-center {
+	width: 120px;
+	height: 270px;
+}
+
+#support-introduction-blank-left, #support-introduction-blank-center, #support-introduction-blank-right, #company-front, #midori-cloud {
+	float: left;
+}
+
+#support-introduction-image {
+	width: 1180px;
+	height: 270px;
+	margin-bottom: 8px;
+}
+
+#first-paragraph-after-image {
+	clear: left;
+}
+
 .wpcf7 p {
   color: #080808;
 /*   font-size: 120%; */
