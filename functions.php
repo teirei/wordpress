@@ -53,8 +53,14 @@ register_sidebar(array(
 add_theme_support( 'post-thumbnails' );
 /*アイキャッチ画像のサイズを設定*/
 //set_post_thumbnail_size(150,150,true);
+
 /*アイキャッチ画像サイズ "grid" を追加*/
 add_image_size('grid', 400, 400, true);
+
+//中サイズ時のトリミング機能を有効、1回実行のみで適用
+//update_option( 'medium_crop',true );
+//大サイズ時のトリミング機能を有効、1回実行のみで適用
+//update_option( 'large_crop',true );
 
 /*RSSフィードを有効化*/
 add_theme_support( 'automatic-feed-links' );
