@@ -98,6 +98,7 @@ body {
   -webkit-text-size-adjust: none;
   font: 13px/23px "Meiryo","MS PGothic","Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   color: #333;
+  background: #080808;
 }
 
 h1, h2, h3, h4, h5, h6, p {
