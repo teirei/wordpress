@@ -154,19 +154,30 @@ p {
   margin: 0 20px;
 }
 
-.forum-introduction p {
+.forum-introduction p, .article-content p {
   font-size: 120%;
   color: #a8a8a8;
   margin-left: 15px;
   line-height: 24px;
 }
 
-#support-introduction a {
+#article-lens {
+  margin-top: 2em;	
+}
+
+#article-lens, #article-model {
+  margin-bottom: 2em;	
+}
+
+#support-introduction a, .article-content a {
   color: #ccc;
+}
+
+#support-introduction a {
   text-decoration: underline;
 }
 
-#support-introduction a:hover {
+#support-introduction a:hover, .article-content a:hover {
   color: #00ddff;
 }
 
@@ -215,7 +226,7 @@ a:hover {
 }
 
 a:hover img {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .easingslider-slide a:hover img {
@@ -296,12 +307,6 @@ object, embed {
   text-align: left;
   overflow: hidden;
   padding: 0;
-}
-
-#article-content p {
-  font-size: 120%;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .exif-in-article {
