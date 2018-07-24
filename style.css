@@ -205,6 +205,24 @@ p {
 	clear: left;
 }
 
+#ex-university {
+	width: 320px;
+	right: 0;
+	margin: 20px 14px 20px 6px;
+	float: right;
+	text-align: center;
+}
+
+#ex-university-image {
+	margin-bottom: 6px;	
+}
+
+#ex-university a {
+	color: #fff;
+/* 	text-decoration: none; */
+	font-size: 120%;
+}
+
 .wpcf7 p {
   color: #080808;
 /*   font-size: 120%; */
