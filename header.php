@@ -13,29 +13,33 @@
 <div id="container">
 <div id="header">
 	<div id="siteTitle"><a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>"></a></div>
-	<?php if(is_home()): ?>
+
+<!-- 	<?php if(is_home()): ?>
 	<h1 id="siteDescription"><?php bloginfo('description'); ?></h1>
 	<?php elseif(is_front_page()): ?>
 	<h1 id="siteDescription"><?php bloginfo('description'); ?></h1>
 	<?php else: ?>
 	<p id="siteDescription"><?php bloginfo('description'); ?></p>
 	<?php endif; ?>
-<?php wp_nav_menu( array( 'container_id' => 'sub-menu', 'theme_location' => 'sub-menu', 'depth' => 1, 'fallback_cb' => 0 ) ); ?>
+ -->
+	<div id="siteDescription"><a href="<?php echo home_url( '/' ); ?>"><?php bloginfo('description'); ?></a></div>	
+	
+	<!-- <?php wp_nav_menu( array( 'container_id' => 'sub-menu', 'theme_location' => 'sub-menu', 'depth' => 1, 'fallback_cb' => 0 ) ); ?> -->
 </div>
 
 <?php
 if ( is_front_page() ) { ?>
 	<div id="topImage">
 		<div id="topImageWrap">
-<?php if ( function_exists( 'easingslider' ) ) { easingslider( 83 ); } ?>
+<?php if ( function_exists( 'easingslider' ) ) { easingslider( 80 ); } ?>
 		</div>
 	</div>
 <?php } else { ?>
-	<div id="secondImage">
+<!-- 	<div id="secondImage">
 		<div id="breadcrumb">
 		<?php if(function_exists('bcn_display')) { bcn_display(); } ?>
 		</div>
-	</div>
+	</div> -->
 <?php } ?>
 
 <div id="mainMenu">

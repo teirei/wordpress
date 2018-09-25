@@ -17,8 +17,9 @@
 <div id="footerBottom">
 	<?php wp_nav_menu( array( 'container_id' => 'footer-menu', 'theme_location' => 'footer-menu', 'depth' => 1, 'fallback_cb' => 0 ) ); ?>
 	<div id="copyright"><!-- コピーライト -->
-	Copyright <?php bloginfo('name'); ?>.
-	WordPress CMS Theme <a href="http://wsc.studiobrain.net/" target="_blank">WSC Project</a>.
+	© <?php echo date('Y'); ?> <?php bloginfo('name'); ?> 
+	All rights reserved.
+<!-- 	WordPress CMS Theme <a href="http://wsc.studiobrain.net/" target="_blank">WSC Project</a>. -->
 	</div><!-- /コピーライト -->
 </div>
 

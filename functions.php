@@ -53,8 +53,25 @@ register_sidebar(array(
 add_theme_support( 'post-thumbnails' );
 /*アイキャッチ画像のサイズを設定*/
 //set_post_thumbnail_size(150,150,true);
-/*アイキャッチ画像サイズ "grid" を追加*/
-add_image_size('grid', 300, 300, true);
+
+/*画像サイズ "grid" を追加*/
+add_image_size('grid', 400, 400, true);
+
+//中サイズ時のトリミング機能を有効、1回実行のみで適用
+//update_option( 'medium_crop',true );
+//大サイズ時のトリミング機能を有効、1回実行のみで適用
+//update_option( 'large_crop',true );
+
+//resizeの画質を設定; 100でも劣化する
+add_filter('jpeg_quality', function($arg){return 100;});
+
+//画像の自動resizeで medium と grid の作成を除外、当面利用禁止
+// function remove_image_sizes($sizes) {
+//   unset( $sizes['medium'] );
+//   unset( $sizes['grid'] );
+//   return $sizes;
+// }
+// add_filter( 'intermediate_image_sizes_advanced', 'remove_image_sizes' );
 
 /*RSSフィードを有効化*/
 add_theme_support( 'automatic-feed-links' );
